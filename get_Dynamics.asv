@@ -434,12 +434,12 @@ function [F_Joint,tau_Cartesian,L_Acc] = get_Dynamics(X,X_1,X_2,Euler,Euler_1,Eu
     Vector_b5 = Vector_b5*1000;
     Vector_b6 = Vector_b6*1000;
 
-    Vector_p1 = point_a(:,1)*1000;
-    Vector_p2 = point_a(:,2)*1000;
-    Vector_p3 = point_a(:,3)*1000;
-    Vector_p4 = point_a(:,4)*1000;
-    Vector_p5 = point_a(:,5)*1000;
-    Vector_p6 = point_a(:,6)*1000;
+    Vector_p1 = point_a(:,1);
+    Vector_p2 = point_a(:,2);
+    Vector_p3 = point_a(:,3);
+    Vector_p4 = point_a(:,4);
+    Vector_p5 = point_a(:,5);
+    Vector_p6 = point_a(:,6);
     
 
 
@@ -465,17 +465,17 @@ function [F_Joint,tau_Cartesian,L_Acc] = get_Dynamics(X,X_1,X_2,Euler,Euler_1,Eu
     hold on
 
 
-    plot3((Vector_p1(1)-Vector_p2(1))*(-t)+Vector_p1(1), (Vector_p1(2)-Vector_p2(2))*(-t)+Vector_p1(2), (Vector_p1(3)-Vector_p2(3))*(-t)+Vector_p1(3),':')
+    plot3((Vector_b1(1)-Vector_b2(1))*(-t)+Vector_b1(1), (Vector_b1(2)-Vector_b2(2))*(-t)+Vector_b1(2), (Vector_b1(3)-Vector_b2(3))*(-t)+Vector_b1(3),':')
     hold on
-    plot3((Vector_p2(1)-Vector_p3(1))*(-t)+Vector_p2(1), (Vector_p2(2)-Vector_p3(2))*(-t)+Vector_p2(2), (Vector_p2(3)-Vector_p3(3))*(-t)+Vector_p2(3),':')
+    plot3((Vector_b2(1)-Vector_b3(1))*(-t)+Vector_b2(1), (Vector_b2(2)-Vector_b3(2))*(-t)+Vector_b2(2), (Vector_b2(3)-Vector_b3(3))*(-t)+Vector_b2(3),':')
     hold on
-    plot3((Vector_p3(1)-Vector_p4(1))*(-t)+Vector_p3(1), (Vector_p3(2)-Vector_p4(2))*(-t)+Vector_p3(2), (Vector_p3(3)-Vector_p4(3))*(-t)+Vector_p3(3),':')
+    plot3((Vector_b3(1)-Vector_b4(1))*(-t)+Vector_b3(1), (Vector_b3(2)-Vector_b4(2))*(-t)+Vector_b3(2), (Vector_b3(3)-Vector_b4(3))*(-t)+Vector_b3(3),':')
     hold on
-    plot3((Vector_p4(1)-Vector_p5(1))*(-t)+Vector_p4(1), (Vector_p4(2)-Vector_p5(2))*(-t)+Vector_p4(2), (Vector_p4(3)-Vector_p5(3))*(-t)+Vector_p4(3),':')
+    plot3((Vector_b4(1)-Vector_b5(1))*(-t)+Vector_b4(1), (Vector_b4(2)-Vector_b5(2))*(-t)+Vector_b4(2), (Vector_b4(3)-Vector_b5(3))*(-t)+Vector_b4(3),':')
     hold on
-    plot3((Vector_p5(1)-Vector_p6(1))*(-t)+Vector_p5(1), (Vector_p5(2)-Vector_p6(2))*(-t)+Vector_p5(2), (Vector_p5(3)-Vector_p6(3))*(-t)+Vector_p5(3),':')
+    plot3((Vector_b5(1)-Vector_b6(1))*(-t)+Vector_b5(1), (Vector_b5(2)-Vector_b6(2))*(-t)+Vector_b5(2), (Vector_b5(3)-Vector_b6(3))*(-t)+Vector_b5(3),':')
     hold on
-    plot3((Vector_p1(1)-Vector_p1(1))*(-t)+Vector_p6(1), (Vector_p6(2)-Vector_p1(2))*(-t)+Vector_p6(2), (Vector_p6(3)-Vector_p1(3))*(-t)+Vector_p6(3),':')
+    plot3((Vector_b1(1)-Vector_b1(1))*(-t)+Vector_b6(1), (Vector_b6(2)-Vector_b1(2))*(-t)+Vector_b6(2), (Vector_b6(3)-Vector_b1(3))*(-t)+Vector_b6(3),':')
     hold on
 
 

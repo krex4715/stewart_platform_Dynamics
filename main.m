@@ -16,4 +16,5 @@ clear
 
 
 % Input : Cartesian p,p',p'', Euler ZXZ, Z'X'Z' , Z''X''Z''
+% Euler Unit: degree
 get_Dynamics([0,0,0],[0,0,0],[0,0,0],[0,0,0],[0,0,0],[0,0,0])
