@@ -465,18 +465,18 @@ function [F_Joint,tau_Cartesian,L_Acc] = get_Dynamics(X,X_1,X_2,Euler,Euler_1,Eu
     hold on
 
 
-    plot3((Vector_p1(1)-Vector_p2(1))*(-t)+Vector_p1(1), (Vector_p1(2)-Vector_p2(2))*(-t)+Vector_p1(2), (Vector_p1(3)-Vector_p2(3))*(-t)+Vector_p1(3),':')
-    hold on
-    plot3((Vector_p2(1)-Vector_p3(1))*(-t)+Vector_p2(1), (Vector_p2(2)-Vector_p3(2))*(-t)+Vector_p2(2), (Vector_p2(3)-Vector_p3(3))*(-t)+Vector_p2(3),':')
-    hold on
-    plot3((Vector_p3(1)-Vector_p4(1))*(-t)+Vector_p3(1), (Vector_p3(2)-Vector_p4(2))*(-t)+Vector_p3(2), (Vector_p3(3)-Vector_p4(3))*(-t)+Vector_p3(3),':')
-    hold on
-    plot3((Vector_p4(1)-Vector_p5(1))*(-t)+Vector_p4(1), (Vector_p4(2)-Vector_p5(2))*(-t)+Vector_p4(2), (Vector_p4(3)-Vector_p5(3))*(-t)+Vector_p4(3),':')
-    hold on
-    plot3((Vector_p5(1)-Vector_p6(1))*(-t)+Vector_p5(1), (Vector_p5(2)-Vector_p6(2))*(-t)+Vector_p5(2), (Vector_p5(3)-Vector_p6(3))*(-t)+Vector_p5(3),':')
-    hold on
-    plot3((Vector_p1(1)-Vector_p1(1))*(-t)+Vector_p6(1), (Vector_p6(2)-Vector_p1(2))*(-t)+Vector_p6(2), (Vector_p6(3)-Vector_p1(3))*(-t)+Vector_p6(3),':')
-    hold on
+%     plot3((Vector_p1(1)-Vector_p2(1))*(-t)+Vector_p1(1), (Vector_p1(2)-Vector_p2(2))*(-t)+Vector_p1(2), (Vector_p1(3)-Vector_p2(3))*(-t)+Vector_p1(3),':')
+%     hold on
+%     plot3((Vector_p2(1)-Vector_p3(1))*(-t)+Vector_p2(1), (Vector_p2(2)-Vector_p3(2))*(-t)+Vector_p2(2), (Vector_p2(3)-Vector_p3(3))*(-t)+Vector_p2(3),':')
+%     hold on
+%     plot3((Vector_p3(1)-Vector_p4(1))*(-t)+Vector_p3(1), (Vector_p3(2)-Vector_p4(2))*(-t)+Vector_p3(2), (Vector_p3(3)-Vector_p4(3))*(-t)+Vector_p3(3),':')
+%     hold on
+%     plot3((Vector_p4(1)-Vector_p5(1))*(-t)+Vector_p4(1), (Vector_p4(2)-Vector_p5(2))*(-t)+Vector_p4(2), (Vector_p4(3)-Vector_p5(3))*(-t)+Vector_p4(3),':')
+%     hold on
+%     plot3((Vector_p5(1)-Vector_p6(1))*(-t)+Vector_p5(1), (Vector_p5(2)-Vector_p6(2))*(-t)+Vector_p5(2), (Vector_p5(3)-Vector_p6(3))*(-t)+Vector_p5(3),':')
+%     hold on
+%     plot3((Vector_p1(1)-Vector_p1(1))*(-t)+Vector_p6(1), (Vector_p6(2)-Vector_p1(2))*(-t)+Vector_p6(2), (Vector_p6(3)-Vector_p1(3))*(-t)+Vector_p6(3),':')
+%     hold on
 
 
 
