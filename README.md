@@ -11,6 +11,7 @@ https://roboharco12.tistory.com/38
 This is the inverse Dynamics code of the Stewart platform.   
 You can see the Joint Force supporting the platform weight in figure    
 ![Picture1](img/examp1.png)   
+Actual Size image
 ![Picture2](img/examp2.png)
 
 
