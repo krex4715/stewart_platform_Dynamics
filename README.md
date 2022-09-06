@@ -3,8 +3,6 @@
 ### reference paper
 https://www.researchgate.net/publication/220103568_Kinematic_and_dynamic_analysis_of_Stewart_platform-based_machine_tool_structures
 
-#### my blog
-https://roboharco12.tistory.com/38
 
 
 ### --------- 
